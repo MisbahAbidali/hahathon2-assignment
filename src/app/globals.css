@@ -1,27 +1,439 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+ 
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+
+@media (max-width: 440px) { 
+.navbar{
+  height: 0px;
+  visibility: hidden;
+}
+.navbar2{
+  padding-left: 40px;
+ 
+}
+.img{
+  height: 0px;
+  visibility: hidden;
+}
+.img2{
+  
+  height: 520px;
+  width: 680px;
+}
+.text{
+  color:#252B42 ;
+  padding-left: 99px;
+  margin-top: 300px;
+}
+.text2{
+  color: #737373;
+  margin-top: 8px;
+  padding-left: 50px;
+}
+.image{
+  height: 0px;
+  visibility: hidden;
+}
+.image2{
+  margin-top: 70px;
+  padding-left: 40px;
+}
+.text3{
+  color: #737373;
+  margin-top: 160px;
+  padding-left: 110px;
+ }
+ .text4{
+  color:#252B42;
+  padding-left: 120px;
+  margin-top: 15px;
+  width: 30px;
+  
+ }
+ .text5{
+  color: #737373;
+  margin-top: 15px;
+  padding-left: 80px;
+  margin-right: 20px;
+ }
+ .img3{
+  margin-top: 60px;
+  padding-left: 50px;
+ }
+ .image3{
+  height: 0px;
+  visibility: hidden;
+ }
+ .text6{
+ height: 0px;
+ visibility: hidden;
+ }
+ .text7{
+  height: 0px;
+  visibility: hidden;
+ }
+ .content{
+  height: 0px;
+  visibility: hidden;
+ }
+ .colors{
+  height: 0px;
+  visibility: hidden;
+ }
+ .content2{
+  padding-left: 125px;
+  margin-top: 30px;
+ }
+ .content3{
+  margin-top: 60px;
+  padding-left: 70px;
+ }
+ .image4{
+  height: 0px;
+  visibility: hidden;
+ }
+ .image5{
+  height: 0px;
+  visibility: hidden;
+ }
+ .image6{
+  margin-top: 90px;
+ }
+ .image7{
+  height: 0px;
+  visibility: hidden;
+ }
+ .text8{
+  height: 0px;
+  visibility: hidden;
+ }
+ .text9{
+  height: 0px;
+  visibility: hidden;
+  
+ }
+.text10{
+  color: #737373;
+  margin-top: 80px;
+  width: 350px;
+  height: 99px;
+  padding-left: 40px;
+  margin-left: 20px;
+  
+}
+.text11{
+  color:#252B42;
+  margin-top: 30px;
+  width: 270px;
+  height: 140px;
+  margin-left: 60px;
+}
+.button3{
+  margin-top: 220px;
+  padding-left: 130px;
+}
+.image8{
+margin-top: 30px;
+padding-left: 30px;
+}
+.text12{
+  height: 0px;
+  visibility: hidden;
+}
+.text13{
+  height: 0px;
+  visibility: hidden;
+}
+.text14{
+  height: 0px;
+  visibility: hidden;
+}
+.image10{
+  height: 0px;
+  visibility: hidden;
+}
+.button5{
+  background-color: #23A6F0;
+  padding: 10px;
+  padding-left: 45px;
+  padding-right: 20px; 
+  border-radius: 4px;
+  margin-right: 145px;
+  margin-left: 100px;
+ }
+ .footer{
+  color:#252B42 ;
+  padding-left: 60px;
+ }
+ .footer-text{
+  color:#252B42 ;
+  
+ }
+ .footer-text2{
+  color: #737373;
+ }
+ .footer-text3{
+  color: #737373;
+  width: 360px;
+  height: 89px;
+  margin-top: 40px;
+  padding-left: 100px;
+ }
+ .nav{
+  height: 0px;
+  visibility: hidden;
+ }
+ .nav1{
+  height: 0px;
+  visibility: hidden;
+ }
+ .container{
+  height: 0px;
+  visibility: hidden;
+ }
+ .img4{
+  height: 0px;
+  visibility: hidden;
+ }
+ .img5{
+  height: 0px;
+  visibility: hidden;
+ }
+ .img6{
+  height: 0px;
+  visibility: hidden;
+ }
+ .clients{
+  height: 0px;
+  visibility: hidden;
+ }
+ }
+
+
+ @media (min-width: 768px) { 
+ .navbar{
+  color:#252B42 ;
+ }
+ .navbar2{
+  height: 0px;
+  visibility: hidden;
+ }
+ .img2{
+  height: 0px;
+  visibility: hidden;
+ }
+ .text{
+  color:#252B42 ;
+  padding-left: 520px;
+  margin-top: 50px;
+ }
+ .text2{
+  color: #737373;
+  margin-top: 10px;
+  padding-left: 465px;
+ }
+ .image{
+  margin-top: 70px;
+  padding-left: 115px;
+ }
+ .image2{
+  height: 0px;
+  visibility: hidden;
+ }
+ .text3{
+  color: #737373;
+  margin-top: 70px;
+  padding-left: 500px;
+ }
+ .text4{
+  color:#252B42;
+  padding-left: 420px;
+  margin-top: 15px;
+  
+ }
+ .text5{
+  color: #737373;
+  margin-top: 15px;
+  padding-left: 420px;
+  
+ }
+ .img3{
+  height: 0px;
+  visibility: hidden;
+ }
+ .image3{
+  margin-top: 100px;
+  padding-left: 30px;
+ }
+ .text6{
+  color:#252B42;
+  padding-left: 110px;
+  margin-top: 30px;
+ }
+ .text7{
+  color: #737373;
+  padding-left: 110px;
+  margin-top: 10px;
+ }
+ .content2{
+  height: 0px;
+  visibility: hidden;
+ }
+ .content3{
+  height: 0px;
+  visibility: hidden;
+ }
+ .image4{
+  padding-left: 65px;
+  margin-top: 100px;
+ }
+ .content{
+  margin-top: 10px;
+ }
+ .colors{
+  margin-top: 10px;
+ }
+ .image5{
+  margin-top: 90px;
+ }
+ .text8{
+  color: #737373;
+  margin-top: 120px;
+  width: 450px;
+  height: 150px;
+ }
+ .text9{
+  color:#252B42;
+  margin-top: 30px;
+  width: 400px;
+  height: 99px;
+ }
+ .image6{
+  height: 0px;
+  visibility: hidden;
+ }
+ .image7{
+  height: 400px;
+  width: 500px;
+  margin-left: 70px;
+ }
+ .button{
+  background-color:#2DC071 ;
+  padding: 10px;
+  margin-top: 25px;
+  border-radius: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+ }
+ .button2{
+  background-color: #cfcece;
+  border-radius: 5px;
+  color:#2DC071;
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 25px;
+ }
+ .text10{
+  visibility: hidden;
+  height: 0px;
+ }
+ .text11{
+  height: 0px;
+  visibility: hidden;
+ }
+ .button3{
+  height: 0px;
+  visibility: hidden;
+ }
+ .image8{
+  height: 0px;
+  visibility: hidden;
+ }
+ .image9{
+  height: 0px;
+  visibility: hidden;
+ }
+ .text12{
+  color:#23A6F0 ;
+  padding-top: 150px;
+  padding-left: 550px;
+ }
+ .text13{
+  color:#252B42;
+  padding-left: 490px;
+  margin-top: 15px;
+ }
+ .text14{
+  color: #737373;
+  padding-left: 410px;
+  margin-top: 15px;
+  height: 85px;
+  width: 900px;
+ }
+ .image10{
+  padding-left: 100px;
+ }
+ .footer{
+  color:#252B42 ;
+  padding-left: 170px;
+  margin-top: 120px;
+ }
+ .footer-text{
+  color:#252B42 ;
+  
+ }
+ .footer-text2{
+  color: #737373;
+  
+  
+ }
+ .button4{
+  background-color: #23A6F0;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 130px;
+  margin-bottom: 97px;
+  border-radius: 4px;
+ }
+ .button5{
+  height: 0px;
+  visibility: hidden;
+ }
+ .footer-text3{
+  color: #737373;
+  margin-top: 140px;
+  padding-left: 450px;
+ }
+ .container2{
+  height: 0px;
+  visibility: hidden;
+ }
+ .cards{
+  height: 0px;
+  visibility: hidden;
+ }
+ .cards2{
+  height: 0px;
+  visibility: hidden;
+ }
+ .cards3{
+  height: 0px;
+  visibility: hidden;
+ }
+ .cards4{
+  height: 0px;
+  visibility: hidden;
+ }
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
+
+
+
+
+

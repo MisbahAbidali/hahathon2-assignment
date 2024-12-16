@@ -1,101 +1,330 @@
-import Image from "next/image";
 
+import Link from "next/link";
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+    <div>
+      <div className="navbar">
+       <div>
+        <img src="navbar-dark.png" alt="nav"></img>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+         <ul className="flex gap-7">
+             <li className="text-3xl font-semibold p-[10px] mr-[30px] pt-[30pz] pl-[40px]">Bandage</li>
+             <li className="pt-[17px] pl-[70px]"><Link href="/">Home</Link></li>
+             <li className="pt-[17px]"><Link href="/shop">Shop</Link></li>
+             <li className="pt-[17px]"><Link href="/about">About</Link></li>
+             <li className="pt-[17px]"><Link href="/blog">Blog</Link></li>
+             <li className="pt-[17px]"><Link href="/contact">Contact</Link></li>
+             <li className="pt-[17px]"><Link href="/pages">Pages</Link></li>
+             <li className="pl-[190px]"><img src="navbar-nav.png" alt="navbar"></img></li>
+         </ul>
+       </div>
+      <div className="navbar2">
+    <img src="navbar-style-1 navbar-light (3).png" alt="nav"></img>
+   </div>
+  <div className="img">
+     <img src="carousel-item (2).png" alt="image"></img>       
+      </div>
+     <div className="img2">
+    <img src="carousel-item.svg" alt="image"></img>
+  </div>
+       <div className="text">
+        <h1 className="text-3xl font-bold">EDITOR'S PICK</h1>        
+       </div>
+       <div className="text2">
+        <h3 className="text-1xl">Problems trying to resolve 
+        the conflict between </h3>
+        </div>
+        <div className="image">
+          <img src="row (5).svg" alt="image"></img>
+        </div>
+        <div className="image2">
+          <img src="row (6).svg" alt="image"></img>
+        </div>
+        <div className="text3">
+          <h3 className="text-2xl">Featured Products</h3>
+          </div>
+        <div className="text4">
+          <h3 className="text-3xl font-bold">BESTSELLER PRODUCTS</h3>
+        </div>
+         <div className="text5">
+          <p className="text-1xl">Problems trying to resolve the conflict between </p>
+        </div>
+        <div className="img3">
+          <img src="product-cover-5.svg" alt="image"></img>      
+        </div>
+           <div className="image3">
+             <div className="flex gap-10">
+                <img src="product-cover-5.svg" alt="image"></img>
+                <img src="fixed-height.svg" alt="image"></img>  
+                <img src="fixed-height (1).svg" alt="image"></img>  
+                <img src="product-cover-5 (1).svg" alt="image"></img>  
+             </div>
+          </div>
+          <div className="text6">
+            <div className="flex gap-48">
+               <h1 className="text-1xl font-bold">Graphic Design</h1>
+               <h1 className="text-1xl font-bold">Graphic Design</h1>
+               <h1 className="text-1xl font-bold">Graphic Design</h1>
+               <h1 className="text-1xl font-bold ">Graphic Design</h1>
+            </div>
+          </div>
+          <div className="text7">
+            <div className="flex gap-40">
+              <p className="text-1xl">English Department</p>
+              <p className="text-1xl">English Department</p>
+              <p className="text-1xl">English Department</p>
+              <p className="text-1xl">English Department</p>
+            </div>            
+             <div className="content">
+              <div className="flex gap-40">
+                    <div className="pl-[10px]"><img src="prices.svg" alt="sorry"></img></div>
+                    <div className="pl-[28px]"><img src="prices.svg" alt="sorry"></img></div>
+                    <div className="pl-[33px]"><img src="prices.svg" alt="sorry"></img></div>
+                    <div className="pl-[39px]"><img src="prices.svg" alt="sorry"></img></div>
+              </div>          
+             </div>
+          </div>
+              <div className="colors">
+                <div className="md:flex">
+                  <div className="pl-[130px]"><img src="product-colors.svg" alt="img"></img></div>
+                  <div className="pl-[214px]"><img src="product-colors.svg" alt="img"></img></div>
+                  <div className="pl-[222px]"><img src="product-colors.svg" alt="img"></img></div>
+                  <div className="pl-[228px]"><img src="product-colors.svg" alt="img"></img></div>
+                </div>
+              </div>
+          <div className="content2">
+            <div>
+                 <h1 className="text-1xl font-bold pl-[15px]">Graphic Design</h1>
+                 <p className="text-1xl">English Department</p>
+                 <div className="pl-[15px]"><img src="prices.svg" alt="sorry"></img></div>
+                 <div className="pl-[25px]"><img src="product-colors.svg" alt="img"></img></div>
+            </div>
+          </div> 
+             <div className="content3">
+                 <img src="fixed-height.svg" alt="img"></img>
+                 <div className="pl-[50px]">
+                 <h1 className="text-1xl font-bold pl-[15px] mt-[30px]">Graphic Design</h1>
+                 <p className="text-1xl">English Department</p>
+                 <div className="pl-[15px]"><img src="prices.svg" alt="sorry"></img></div>
+                 <div className="pl-[25px]"><img src="product-colors.svg" alt="img"></img></div>
+             </div>
+          </div>  
+             <div className="content3">
+               <div>
+                <img src="fixed-height (1).svg" alt="img"></img>
+                <div className="pl-[50px]">
+                 <h1 className="text-1xl font-bold pl-[15px] mt-[30px]">Graphic Design</h1>
+                 <p className="text-1xl">English Department</p>
+                 <div className="pl-[15px]"><img src="prices.svg" alt="sorry"></img></div>
+                 <div className="pl-[25px]"><img src="product-colors.svg" alt="img"></img></div>
+                </div>
+              </div>
+             </div>
+             <div className="content3">
+               <div>
+                <img src="product-cover-5 (1).svg" alt="img"></img>
+                <div className="pl-[50px]">
+                 <h1 className="text-1xl font-bold pl-[15px] mt-[30px]">Graphic Design</h1>
+                 <p className="text-1xl">English Department</p>
+                 <div className="pl-[15px]"><img src="prices.svg" alt="sorry"></img></div>
+                 <div className="pl-[25px]"><img src="product-colors.svg" alt="img"></img></div>
+                </div>
+              </div>
+             </div>
+             <div className="content3">
+               <div>
+                <img src="fixed-height (2).svg" alt="img"></img>
+                <div className="pl-[50px]">
+                 <h1 className="text-1xl font-bold pl-[15px] mt-[30px]">Graphic Design</h1>
+                 <p className="text-1xl">English Department</p>
+                 <div className="pl-[15px]"><img src="prices.svg" alt="sorry"></img></div>
+                 <div className="pl-[25px]"><img src="product-colors.svg" alt="img"></img></div>
+                </div>
+              </div>
+             </div>
+             <div className="content3">
+               <div>
+                <img src="fixed-height (2).svg" alt="img"></img>
+                <div className="pl-[50px]">
+                 <h1 className="text-1xl font-bold pl-[15px] mt-[30px]">Graphic Design</h1>
+                 <p className="text-1xl">English Department</p>
+                 <div className="pl-[15px]"><img src="prices.svg" alt="sorry"></img></div>
+                 <div className="pl-[25px]"><img src="product-colors.svg" alt="img"></img></div>
+                </div>
+              </div>
+             </div>
+             <div className="content3">
+               <div>
+                <img src="fixed-height (3).svg" alt="img"></img>
+                <div className="pl-[50px]">
+                 <h1 className="text-1xl font-bold pl-[15px] mt-[30px]">Graphic Design</h1>
+                 <p className="text-1xl">English Department</p>
+                 <div className="pl-[15px]"><img src="prices.svg" alt="sorry"></img></div>
+                 <div className="pl-[25px]"><img src="product-colors.svg" alt="img"></img></div>
+                </div>
+              </div>
+             </div>
+             <div className="image4">
+             <div className="flex gap-10">
+                <img src="fixed-height (4).svg" alt="image"></img>
+                <img src="product-cover-5 (2).svg" alt="image"></img>  
+                <img src="product-cover-5 (3).svg" alt="image"></img>  
+                <img src="product-cover-5.svg" alt="image"></img>  
+             </div>
+          </div>
+          <div className="text6">
+            <div className="flex gap-48">
+               <h1 className="text-1xl font-bold">Graphic Design</h1>
+               <h1 className="text-1xl font-bold">Graphic Design</h1>
+               <h1 className="text-1xl font-bold">Graphic Design</h1>
+               <h1 className="text-1xl font-bold ">Graphic Design</h1>
+            </div>
+          </div>
+          <div className="text7">
+            <div className="flex gap-40">
+              <p className="text-1xl">English Department</p>
+              <p className="text-1xl">English Department</p>
+              <p className="text-1xl">English Department</p>
+              <p className="text-1xl">English Department</p>
+            </div>            
+               <div className="content">
+                <div className="flex gap-40">
+                    <div className="pl-[10px]"><img src="prices.svg" alt="sorry"></img></div>
+                    <div className="pl-[28px]"><img src="prices.svg" alt="sorry"></img></div>
+                    <div className="pl-[33px]"><img src="prices.svg" alt="sorry"></img></div>
+                    <div className="pl-[39px]"><img src="prices.svg" alt="sorry"></img></div>
+               </div>          
+             </div>
+          </div>
+              <div className="colors">
+                <div className="md:flex">
+                  <div className="pl-[130px]"><img src="product-colors.svg" alt="img"></img></div>
+                  <div className="pl-[214px]"><img src="product-colors.svg" alt="img"></img></div>
+                  <div className="pl-[222px]"><img src="product-colors.svg" alt="img"></img></div>
+                  <div className="pl-[228px]"><img src="product-colors.svg" alt="img"></img></div>
+                </div>
+              </div>
+              <div className="image5">
+                <img src="carousel 2.svg" alt="image"></img>
+                  </div>
+                  <div className="image6">
+                  <img src="carousel 1.svg" alt="image"></img>
+               </div>
+               <div className="flex">
+               <div className="image7">
+               <img src="col-md-6.svg" alt="image"></img>
+               </div> 
+              <div className="text8">
+                 <p className="text-1xl">SUMMER 20</p>
+                   <div className="text9">
+                     <h1 className="text-4xl font-bold">Part of the Neural Universe</h1>
+                    </div>
+                    <p className="text-2xl">We know how large objects will act,but things on a small scale.</p>
+                    <div>
+                      <div className="flex gap-7">
+                        <div className="button">
+                          <button className="text-1xl text-white">BUY NOW</button>
+                         </div>
+                          <div className="button2">
+                           <button className="text-1xl ">READ MORE</button>
+                        </div>
+                      </div>
+                    </div>
+               </div>         
+              </div>
+              <div className="text10">
+                 <p className="text-1xl">SUMMER 20</p>
+                   <div className="text11">
+                     <h1 className="text-4xl font-bold">Part of the Neural Universe</h1>
+                    </div>
+                    <p className="text-2xl">We know how large objects will act,but things on a small scale.</p>
+                    <div>              
+                    </div>
+               </div> 
+               <div className="button3">
+              <img src="cta.svg" alt="img"></img>
+             </div>
+              <div className="image8">
+                <img src="col-md-6.svg" alt="image"></img>
+                </div> 
+                <div className="image9">
+                <img src="mobile-blog-3.svg" alt="img"></img>
+             </div>
+             <div className="text12">
+              <p className="font-semibold">Practice Advice</p>
+             </div>
+                   <div className="text13">
+                    <h1 className="text-4xl font-bold">Featured Posts</h1>
+                   </div>
+                   <div className="text14">
+                    <p>Problems trying to resolve the conflict between
+                    the two major realms of Classical physics: Newtonian mechanics </p>
+                   </div>
+                   <div className="image10">
+                  <img src="row (7).svg" alt="image"></img>
+                  </div>
+               <div className="footer">
+               <div className="md:flex gap-40">
+                   <h1 className="text-3xl font-bold" >Bandage</h1>
+                   <div className="pl-[680px]">
+                  <img src="social media.svg" alt="icon"></img>
+              </div>
+                 </div>          
+          </div>
+          <div className="md:flex">
+          <div className="footer-text">
+            <h3 className="font-bold  mt-[100px] pl-[75px]">Company Info</h3>
+            <div className="footer-text2">
+            <p className="font-semibold mt-[14px] pl-[75px]">About Us</p>
+            <p className="font-semibold mt-[14px] pl-[75px] ">Carrier</p>
+            <p className="font-semibold mt-[14px] pl-[75px]">We are hiring</p>
+            <p className="font-semibold mt-[14px] pl-[75px]">Blog</p>
+            </div>
+          </div>
+          <div className="footer-text">
+          <h3 className="font-bold pl-[75px] mt-[100px]">legal</h3>
+          <div className="footer-text2">
+            <p className="font-semibold mt-[14px] pl-[75px]">About Us</p>
+            <p className="font-semibold mt-[14px] pl-[75px]">Carrier</p>
+            <p className="font-semibold mt-[14px] pl-[75px]">We are hiring</p>
+            <p className="font-semibold mt-[14px] pl-[75px]">Blog</p>
+            </div>
+          </div>
+          <div className="footer-text">
+          <h3 className="font-bold pl-[75px] mt-[100px]">Features</h3>
+          <div className="footer-text2">
+            <p className="font-semibold mt-[14px] pl-[75px]">Business Marketing</p>
+            <p className="font-semibold mt-[14px] pl-[75px]">User Analytic</p>
+            <p className="font-semibold mt-[14px] pl-[75px]">Live Chat</p>
+            <p className="font-semibold mt-[14px] pl-[75px]">Unlimited Support</p>
+            </div>
+          </div>
+          <div className="footer-text">
+          <h3 className="font-bold pl-[75px] mt-[95px]">Resourses</h3>
+          <div className="footer-text2">
+            <p className="font-semibold mt-[14px] pl-[75px]">IOS & Android</p>
+            <p className="font-semibold mt-[14px] pl-[75px]">Watch a Demo</p>
+            <p className="font-semibold mt-[14px] pl-[75px]">Customers</p>
+            <p className="font-semibold mt-[14px] pl-[75px]">API</p>
+            </div>
+          </div>
+          <div className="footer-text">
+          <h3 className="font-bold pl-[50px] mt-[95px]">Get In Touch</h3>
+          <div className="footer-text2">
+            <p className="font-semibold mt-[30px] pl-[50px]">Your Email</p>
+            <p className=" mt-[14px] pl-[50px]">Lore imp sum dolor Amit</p>
+            </div>
+          </div>
+          <div className="button4">
+            <button className="text-white">Subscribe</button>
+               </div>
+                </div> 
+                 <div className="button5">
+                 <button className="text-white">Subscribe</button>
+                </div>
+             <div className="footer-text3">
+            <p className="font-bold">Made With Love By Finland All Right Reserved </p>
+          </div>
     </div>
   );
 }
