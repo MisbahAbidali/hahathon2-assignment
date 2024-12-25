@@ -89,6 +89,7 @@
  .content3{
   margin-top: 60px;
   padding-left: 70px;
+  
  }
  .image4{
   height: 0px;
@@ -181,7 +182,180 @@ padding-left: 30px;
   margin-top: 40px;
   padding-left: 100px;
  }
+ .navbar3{
+  height: 0px;
+  visibility: hidden;
+ }
+ .navbar5{
+  height: 0px;
+  visibility: hidden;
+ }
+ .container{
+  height: 0px;
+  visibility: hidden;
+ }
+ .cards{
+  height: 0px;
+  visibility: hidden;
+ }
+ .row{
+  height: 0px;
+  visibility: hidden;
+ }
+ .ul{
+  height: 0px;
+  visibility: hidden;
+ }
+ .ul2{
+  height: 0px;
+  visibility: hidden;
+ }
+ .row4{
+  height: 0px;
+  visibility: hidden;
+ }
+ .row5{
+  height: 0px;
+  visibility: hidden;
+ }
+ .ul3{
+  height: 0px;
+  visibility: hidden;
+ }
+ .btn2{
+  background-color:#23A6F0 ;
+  border-radius: 5px;
+  padding: 10px;
+  padding-left: 20px;
+  margin-top: 27px;
+  margin-right: 240px;
+  margin-left: 36px;
+  
+ }
+ .btn2:hover{
+  background-color: #50aadf;
+  cursor: pointer;
+ }
+ .carousel{
+  margin-top: 30px;
+ }
+ .carousel2{
+  margin-top: 20px;
+ }
+ .para{
+  color: #737373;
+  width: 300px;
+  margin-top: 20px;
+ }
+ .bar{
+  margin-top: 40px;
+
+ }
+ .content-a{
+  padding-left: 30px;
+  margin-top: 20px;
+ }
+ .bold{
+  padding-right: 60px;
+  width: 600px;
+ }
+ .para2{
+  margin-top: 20px;
+  width: 400px;
+  color: #737373;
+ }
+ .para3{
+  color: #737373;
+  padding-left: 5px;
+  margin-top: 20px;
+ }
+ .cont{
+  color:#252B42 ;
+  margin-top: 30px;
+  padding-left: 27px;
+ }
+ .company{
+  height: 0px;
+  visibility: hidden;
+ }
+ .about-bandage{
+  height: 0px;
+  visibility: hidden;
+ }
+ .about-us{
+  margin-top: 170px;
+  padding-left: 55px;
+  
+ }
+ .about-text{
+  color: #737373;
+  margin-top: 40px;
+  width: 380px;
+  padding-left: 80px;
+ }
+ .about-image{
+  margin-right: 40px;
+  margin-top: 140px;
+}
+.about-button3{
+  background-color:#23A6F0 ;
+  padding: 13px;
+  margin-left: 100px;
+  margin-right: 120px;
+  border-radius: 5px;
+  padding-left: 50px;
+  margin-top: 20px;
+}
+.about-text2{
+  padding-left: 110px;
+  width: 400px;
+  margin-top: 20px;
+  color:#252B42 ;
+}
+.about-text3{
+ color: #737373;
+ margin-top: 40px;
+ margin-right: 60px;
+ width: 300px;
+}
+.ks{
+ height: 0px;
+ visibility: hidden;
+}
+.ks2{
+  height: 0px;
+  visibility: hidden;
+}
+.ks3{
+  color:#252B42 ;
+  margin-top: 70px;
+  padding-left: 70px;
+}
+.ks4{
+  color: #737373;
+  padding-left: 60px;
+}
+.about-img{
+  margin-top: 50px;
+  margin-bottom: 40px;
  
+}
+.about-img2{
+  height: 0px;
+  visibility: hidden;
+}
+.about-img3{
+  height: 0px;
+  visibility: hidden;
+}
+.about-img4{
+  height: 0px;
+  visibility: hidden;
+}
+.about-img7{
+  margin-bottom: 99px;
+  margin-left: 10px;
+ }
  }
 
 
@@ -381,9 +555,188 @@ padding-left: 30px;
   margin-top: 140px;
   padding-left: 450px;
  }
-
+.navbar4{
+  height: 0px;
+  visibility: hidden;
 }
-
+.container2{
+  height: 0px;
+  visibility: hidden;
+}
+.row2{
+  height: 0px;
+  visibility: hidden;
+}
+.row3{
+  height: 0px;
+  visibility: hidden;
+}
+.ul{
+  height: 0px;
+  visibility: hidden;
+}
+.clients{
+  height: 0px;
+  visibility: hidden;
+ }
+ .ul3{
+  padding-left: 480px;
+  margin-top: 60px;
+ }
+ .para{
+  color: #737373;
+  width: 500px;
+  margin-top: 20px;
+ }
+ .btn{
+  background-color:#23A6F0 ;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 355px;
+  padding-left: 20px;
+  margin-top: 50px;
+  
+ }
+ .btn:hover{
+  background-color: #50aadf;
+ }
+ .btn2{
+  height: 0px;
+  visibility: hidden;
+ }
+ .bar{
+  margin-top: 50px;
+  padding-left: 76px;
+ }
+ .para2{
+  color: #737373;
+  width: 370px;
+  padding-left: 50px;
+  margin-top: 30px;
+  height: 90px;
+ }
+ .content-a{
+  margin-left: 40px;
+ }
+ .para3{
+  color: #737373;
+  padding-left: 70px;
+  margin-top: 24px;
+  height: 20px;
+ }
+ .cont{
+  margin-top: 110px;
+  color:#252B42 ;
+  padding-left: 40px;
+ }
+ .ul2{
+  margin-top: 60px;
+ }
+ .about-bandage{
+  margin-top: 20px;
+  padding-left: 79px;
+ }
+ .about-login{
+  color:#23A6F0;
+  margin-top: 39px;
+  padding-left: 170px;
+ }
+ .about-button{
+  background-color:#23A6F0;
+  padding: 10px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  margin-top: 29px;
+  margin-left: 30px;
+  padding-left: 14px;
+  padding-right: 14px;
+ }
+ .about-button:hover{
+  background-color:#50aadf ;
+ }
+ .company{
+  margin-top: 120px;
+  padding-left: 120px;
+ }
+ .about-us{
+  margin-top: 36px;
+  padding-left: 116px;
+ }
+ .about-text{
+  color: #737373;
+  margin-top: 50px;
+  padding-left: 110px;
+  width: 490px;
+ }
+ .about-button2{
+ background-color:#23A6F0 ;
+ padding: 12px;
+ margin-left: 110px;
+ margin-right: 160px;
+ padding-left: 37px;
+ margin-top: 40px;
+ border-radius: 5px;
+}
+.about-button2:hover{
+  background-color:#50aadf ;
+ }
+ .about-image{
+  padding-left: 80px;
+  height: 700px;
+  width: 900px;
+ }
+ .about-nav{
+  height: 0px;
+  visibility: hidden;
+ }
+ .about-button3{
+  height: 0px;
+  visibility: hidden;
+ }
+ .about-text2{
+   padding-left: 140px;
+   width: 900px;
+   margin-top: 20px;
+   color:#252B42 ;
+ }
+ .about-text3{
+  color: #737373;
+  margin-left: 110px;
+  width: 640px;
+ 
+ }
+ .ks{
+  padding-left: 120px;
+  margin-top: 110px;
+  color:#252B42 ;
+ }
+ .ks2{
+ color: #737373;
+ padding-left: 110px;
+ margin-top: 10px;
+ 
+ }
+ .ks3{
+ height: 0px;
+ visibility: hidden;
+ }
+ .ks4{
+  height: 0px;
+  visibility: hidden;
+  }
+  .about-img5{
+    height: 0px;
+    visibility: hidden;
+  }
+ .about-img6{
+  height: 0px;
+  visibility: hidden;
+ }
+ .about-img7{
+  height: 0px;
+  visibility: hidden;
+ }
+ }
 
 
 

@@ -8,14 +8,14 @@ export default function Home() {
         <img src="navbar-dark.png" alt="nav"></img>
         </div>
          <ul className="flex gap-7">
-             <li className="text-3xl font-semibold p-[10px] mr-[30px] pt-[30pz] pl-[40px]">Bandage</li>
+             <li className="text-3xl font-semibold p-[10px] mr-[30px] pt-[30pz] pl-[40px]">Bandage</li>             
              <li className="pt-[17px] pl-[70px]"><Link href="/">Home</Link></li>
              <li className="pt-[17px]"><Link href="/shop">Shop</Link></li>
              <li className="pt-[17px]"><Link href="/about">About</Link></li>
-             <li className="pt-[17px]"><Link href="/blog">Blog</Link></li>
              <li className="pt-[17px]"><Link href="/contact">Contact</Link></li>
+             <li className="pt-[17px]"><Link href="/blog">Blog</Link></li>
              <li className="pt-[17px]"><Link href="/pages">Pages</Link></li>
-             <li className="pl-[190px]"><img src="navbar-nav.png" alt="navbar"></img></li>
+             <li className="pl-[190px]"><img src="navbar-nav.png" alt="navbar"></img></li>           
          </ul>
        </div>
       <div className="navbar2">
@@ -271,7 +271,7 @@ export default function Home() {
               </div>
                  </div>          
           </div>
-          <div className="md:flex">
+          <div className="md:flex ">
           <div className="footer-text">
             <h3 className="font-bold  mt-[100px] pl-[75px]">Company Info</h3>
             <div className="footer-text2">
